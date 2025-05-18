@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load vite %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block extra_js_css %}
+    {% vite 'src/home/static/home/home.css' %}
+    {% vite 'src/home/static/home/home.js' %}
+{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">Django Appへようこそ</h1>
+</div>
+{% endblock %} 

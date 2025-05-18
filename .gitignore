@@ -1,0 +1,26 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+.env
+
+# rye
+.python-version
+
+# pytest
+.pytest_cache
+
+# node
+node_modules
+
+# editor
+.vscode
+
+# for local files
+local

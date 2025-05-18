@@ -1,4 +1,4 @@
-# Django, ReactJS, Typescript, Tailwindcss, ViteJS Application
+# Django, ReactJS, Typescript, Tailwindcss, ViteJS Template
 
 It's a template project for easy building.
 
